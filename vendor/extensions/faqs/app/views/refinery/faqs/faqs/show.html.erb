@@ -1,0 +1,26 @@
+<% content_for :body_content_title do %>
+  <%= @faq.question %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <p>
+      <%=raw @faq.answer %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="faqs">
+      <% @faqs.each do |faq| %>
+        <li>
+          <%= link_to faq.question, refinery.faqs_faq_path(faq) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

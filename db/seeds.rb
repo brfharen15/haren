@@ -14,3 +14,6 @@ Refinery::News::Engine.load_seed
 
 # Added by Refinery CMS Inquiries engine
 Refinery::Inquiries::Engine.load_seed
+
+# Added by Refinery CMS Faqs extension
+Refinery::Faqs::Engine.load_seed
