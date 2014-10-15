@@ -55,3 +55,5 @@ gem 'refinerycms-faqs', :path => 'vendor/extensions'
 group :development do
   gem 'hirb'
 end
+
+gem 'twitter-bootstrap-rails'
