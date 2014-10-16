@@ -29,6 +29,7 @@ gem 'jquery-rails'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'fog'
 end
 
 # To use ActiveModel has_secure_password
