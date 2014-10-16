@@ -53,3 +53,16 @@ $ rails server
 ```
 
 ## Deployment
+
+The website is running on [Heroku](http://heroku.com). To deploy,
+first add the Git source:
+
+```bash
+$ git remote add heroku git@heroku.com:haren.git
+```
+
+Then push the `master` branch to `heroku`:
+
+```bash
+$ git push heroku master
+```
