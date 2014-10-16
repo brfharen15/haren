@@ -62,6 +62,7 @@ gem 'refinerycms-faqs', :path => 'vendor/extensions'
 
 group :development do
   gem 'hirb'
+  gem 'quiet_assets'
 end
 
 gem 'twitter-bootstrap-rails'
